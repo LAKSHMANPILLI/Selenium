@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="5" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="com.testserver.testcases.ZLogout_Test">
+        <methods>
+          <include name="logout"/>
+          <include name="Logout"/>
+          <include name="Logout_Test"/>
+        </methods>
+      </class> <!-- com.testserver.testcases.ZLogout_Test -->
+      <class name="com.testserver.testcases.CBrandcalllog_Test">
+        <methods>
+          <include name="bclInspectionThird"/>
+          <include name="bclLocationInhouse"/>
+          <include name="bclResolutionSelectItem"/>
+          <include name="bclBrandResolutionAttachDoc"/>
+          <include name="bclBrandInspectionLocation"/>
+          <include name="bclBrandInspectionConfirm"/>
+          <include name="bclInspectionBrandInspection"/>
+          <include name="bclBrandLocationInhouse"/>
+          <include name="bclEnterCallLog"/>
+          <include name="bclInitiationLocation"/>
+          <include name="bclFirstConfirm"/>
+          <include name="bclSelectTag"/>
+          <include name="bclBrandInspectionSetDisposition"/>
+          <include name="bclInspectionSelectTag"/>
+          <include name="bclUpdateCallLogTag"/>
+          <include name="bclBrandInspectionRemarks"/>
+          <include name="bclEnterInvoice"/>
+          <include name="bclBrandInspectionAttachDoc"/>
+          <include name="dispositonBCL1"/>
+          <include name="bclBrandSetDispoInsurance"/>
+          <include name="bclInspectionUpdate"/>
+          <include name="bclAddremarks"/>
+          <include name="bclUpdateSecond"/>
+          <include name="bclUpdateIntiation"/>
+          <include name="bclEmailDate"/>
+          <include name="clickBCL"/>
+          <include name="bclSelectTagBrand"/>
+          <include name="Disposition"/>
+          <include name="bclBrandResolutionConfirm"/>
+          <include name="bclBrandResolution"/>
+          <include name="bclSelectItem"/>
+          <include name="bclBrandResolutionRemarks"/>
+          <include name="bclBrandInspectionDate"/>
+        </methods>
+      </class> <!-- com.testserver.testcases.CBrandcalllog_Test -->
+      <class name="com.testserver.testcases.BDisposition_Test">
+        <methods>
+          <include name="clickOnDispositionlinkTest"/>
+          <include name="dispositonBCL"/>
+        </methods>
+      </class> <!-- com.testserver.testcases.BDisposition_Test -->
+      <class name="com.testserver.testcases.DInsurance_Test">
+        <methods>
+          <include name="insuAttachDocPendingLiqui"/>
+          <include name="insuPendingLiquidationSelectItem"/>
+          <include name="insuUpdateCallSelectItem"/>
+          <include name="insuConfirmSecond"/>
+          <include name="insuClaimResolutionApprovelDate"/>
+          <include name="insuUpdateClaimCallLog"/>
+          <include name="dispositionInsurance"/>
+          <include name="insuClaimSubmitionDate"/>
+          <include name="insuClaimResolutionApprovedAmount"/>
+          <include name="insuEnterCallLog"/>
+          <include name="insuAddRemarks"/>
+          <include name="insuConfirm5th"/>
+          <include name="insuAttachDocClaimresolution"/>
+          <include name="insuAttachDocInspection"/>
+          <include name="insuConfirmFirst"/>
+          <include name="insuClaimAmount"/>
+          <include name="insuPendingLiquidationAddRemarks"/>
+          <include name="insuConfirmFourth"/>
+          <include name="Disposition"/>
+          <include name="Insurance1"/>
+          <include name="insuSetDispositionLiquidation"/>
+          <include name="insuSelectItem"/>
+          <include name="insuSurveyorSelectItem"/>
+          <include name="insuConfirmThird"/>
+          <include name="insuPendingLiquidSetDisposition"/>
+          <include name="insuClaimResolutionAddRemarks"/>
+          <include name="insuClaimResolutionApprove"/>
+          <include name="insuAttachDoc"/>
+          <include name="insuSurveyorClaimInspectionDate"/>
+          <include name="InsuSurveyorAddRemarks"/>
+        </methods>
+      </class> <!-- com.testserver.testcases.DInsurance_Test -->
+      <class name="com.testserver.testcases.FRTV_Test">
+        <methods>
+          <include name="RTVConfirm"/>
+          <include name="RTVLotName"/>
+          <include name="rtvSelectItemForDispatch"/>
+          <include name="RTVDispatchOkbutton"/>
+          <include name="RTVDispoToInsurance"/>
+          <include name="RTVSetDisposition"/>
+          <include name="RTVVendorDropdown"/>
+          <include name="RTV"/>
+          <include name="RTVAddRemarks"/>
+          <include name="RTVMoveToDispatch"/>
+          <include name="RTVAttachDoc"/>
+          <include name="RTVConfirmDispatch"/>
+          <include name="RTV1"/>
+          <include name="RTVVendorcode"/>
+          <include name="rtvSelectItem"/>
+        </methods>
+      </class> <!-- com.testserver.testcases.FRTV_Test -->
+      <class name="com.testserver.testcases.ALogin_QATest">
+        <methods>
+          <include name="signIn"/>
+          <include name="loginTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.testserver.testcases.ALogin_QATest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
